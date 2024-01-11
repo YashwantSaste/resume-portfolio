@@ -21,8 +21,9 @@ const Skills = () => {
         </h2>
         <div className='flex flex-row justify-evenly flex-wrap mt-4 md:gap-14 mdl:gap-4 items-center'>
             {
-                skillsData.map((skill)=>(
+                skillsData.map((skill,index)=>(
                     <Image
+                    key={index}
                     src={skill.Image}
                     alt='Skills'
                     width={skill.width}
