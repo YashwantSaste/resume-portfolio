@@ -148,7 +148,7 @@ const Projects = () => {
                         Shopping Cart Management Application
                     </h3>
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                    The "Shopping Cart Application" is a dynamic React-based project crafted for effortless 
+                    The Shopping Cart Application is a dynamic React-based project crafted for effortless 
                     online shopping. With a sleek layout, users can navigate seamlessly through a diverse product range. 
                     The smart cart management system allows users to add, remove,
                      and update items, ensuring a flexible and user-friendly shopping experience. 

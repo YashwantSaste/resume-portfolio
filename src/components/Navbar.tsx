@@ -39,7 +39,7 @@ const Navbar = () => {
                 <ul className='flex text-[13px] gap-7'>
                     {
                         Navlinks.map((spec)=>(
-                            <Link href={spec.link} id={spec.id}
+                            <Link href={spec.link} key={spec.id}
                             onClick={handleScroll}
                             className='flex items-center gap-1 font-medium text-textDark
                             hover:text-textGreen cursor-pointer duration-300 nav-link'
@@ -102,7 +102,7 @@ const Navbar = () => {
                             <ul className='flex flex-col text-base gap-7'>
                                 {
                                     Navlinks.map((spec)=>(
-                                        <Link href={spec.link} id={spec.id}
+                                        <Link href={spec.link} key={spec.id}
                                         onClick={handleScroll}
                                         className='flex items-center gap-1 font-medium text-textDark
                                         hover:text-textGreen cursor-pointer duration-300 nav-link'

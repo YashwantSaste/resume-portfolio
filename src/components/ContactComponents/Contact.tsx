@@ -12,7 +12,7 @@ const Contact = () => {
         </h2>
         <p className='max-w-[600px] text-center text-textDark'>
             I am currently looking for new opportunities to start my career in Tech  Industry.
-            Whether you have a question or just want to say hi, I'll get back to you soon.
+            Whether you have a question or just want to say hi, I&apos;ll get back to you soon.
         </p>
         <a href='mailto:sasteyashwant01@gmail.com'>
             <button className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md

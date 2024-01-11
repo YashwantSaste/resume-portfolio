@@ -10,7 +10,7 @@ const WorkInfo = () => {
     className='w-full'
     >
         <h3 className='flex gap-1 font-medium text-xl font-titleFont'>
-            Member <span className='text-textGreen'>@S.W.A.G Developer's Club,Nanded</span>
+            Member <span className='text-textGreen'>@S.W.A.G Developer&apos;s Club,Nanded</span>
         </h3>
         <p className='text-sm mt-1 font-medium text-textDark'>
             September 2022-Present
@@ -21,7 +21,7 @@ const WorkInfo = () => {
                     <TiArrowForward/>
                 </span> 
                 {" "}
-                Contributed to the development of the official website for the S.W.A.G Developer's Club
+                Contributed to the development of the official website for the S.W.A.G Developer&apos;s Club
                 <a href='https://swagdev.vercel.app/'  target='_blank'
                 >
                  <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>

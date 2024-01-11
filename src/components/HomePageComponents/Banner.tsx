@@ -32,10 +32,10 @@ const Banner = () => {
         className='text-base md:max-w-[650px] text-textDark font-medium'
         >
             {" "}
-            I'm an engineering student at S.G.G.S.I.E&T, Nanded, and I've got a year of 
-            experience working with the MERN stack. I'm skilled in MongoDB, Express.js, React.js, 
-            and Node.js. Currently, I'm focused on improving my skills in Next.js. 
-            I'm ready to apply what I've learned in a practical setting and contribute to 
+            I&apos;m an engineering student at S.G.G.S.I.E&T, Nanded, and I&apos;ve got a year of 
+            experience working with the MERN stack. I&apos;m skilled in MongoDB, Express.js, React.js, 
+            and Node.js. Currently, I&apos;m focused on improving my skills in Next.js. 
+            I&apos;m ready to apply what I&apos;ve learned in a practical setting and contribute to 
             interesting projects.
             {" "}
             <a href='https://github.com/YashwantSaste' target='_blank'>

@@ -13,7 +13,7 @@ const About = () => {
         <div className='flex flex-col lgl:flex-row gap-16'>
             <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
                 <p>
-                In addition to my expertise in the MERN stack, I'm actively enhancing my skills in Next.js 
+                In addition to my expertise in the MERN stack, I&apos;m actively enhancing my skills in Next.js 
                 to stay at the forefront of web development trends. Beyond the basics, I also have knowledge
                  in other web technologies such as
                  {" "}
@@ -27,7 +27,7 @@ const About = () => {
                   With this diverse skill set I am eager for taking on challenging projects and contributing to innovative solutions.
                 </p>
                 <p>
-                With a year of practical experience under my belt, I'm eager to apply my technical 
+                With a year of practical experience under my belt, I&apos;m eager to apply my technical 
                 prowess to real-world scenarios, solving problems creatively and making a meaningful
                  impact in the realm of web development. I thrive on staying updated with the latest technologies, 
                  ensuring that my solutions 
