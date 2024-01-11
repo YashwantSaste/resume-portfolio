@@ -32,8 +32,16 @@ const Projects = () => {
                         QnaPDF:PDF to Questions {" "}<span className='text-textGreen'>(Ongoing)</span>
                     </h3>
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae dolor eum temporibus vel, quis unde quas fugiat itaque modi vitae aut eius nulla aspernatur dicta quasi praesentium explicabo sed.
-                        Adipisci laudantium illo eum eius, aperiam deserunt veniam quod iusto ipsam beatae aliquam, <span className='text-textGreen'>rem corrupti quae at</span> 
+                       This is my ongoing project made by utilizing the power of NextJS 14 and learning the core concepts and with that building
+                        a <span className="text-textGreen">Software as a Service Platform</span> QnAPDF. Ask questions to your PDF. 
+                        <a href='https://next-js-project-yashwantsaste.vercel.app/' target='_blank'>
+                            <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>
+                                Link
+                                <span className='absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%]
+                                group-hover:translate-x-0 transition-transform duration-500
+                                '/>
+                            </span>
+                        </a>
                     </p>
                     <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                         <li>Next.js</li>
