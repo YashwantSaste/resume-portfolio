@@ -47,7 +47,7 @@ const Banner = () => {
                 </span>
             </a>
         </motion.p>
-        <a href="">
+        <a href="https://drive.google.com/file/d/18hjhfbH0sMyId37-zhcnMMUncUUDdfuQ/view?usp=sharing" target='_blank'>
             <motion.button
             initial={{y:10, opacity:0}}
             animate={{y:0,opacity:1}}
@@ -55,7 +55,7 @@ const Banner = () => {
             className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md
             text-textGreen tracking-wide hover:bg-hoverColor duration-300
             '>
-                Check out my Projects!
+                Check out my Resume
             </motion.button>
         </a>
     </section>

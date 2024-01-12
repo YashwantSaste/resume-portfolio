@@ -56,7 +56,7 @@ const Navbar = () => {
                     }
                 </ul>
                     {/* Add the resume link */}
-                <a href='/' target='_blank'>
+                <a href='https://drive.google.com/file/d/18hjhfbH0sMyId37-zhcnMMUncUUDdfuQ/view?usp=sharing' target='_blank'>
                     <motion.button
                         initial={{opacity:0}}
                         animate={{opacity:1}}
@@ -118,7 +118,7 @@ const Navbar = () => {
                                     ))
                                 }
                                 </ul>
-                                <a href='/Resume.pdf' target='_blank'>
+                                <a href='/resume/Resume.pdf' target='_blank' rel="noopener noreferrer">
                                 <motion.button
                                     initial={{opacity:0}}
                                     animate={{opacity:1}}
