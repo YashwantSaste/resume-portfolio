@@ -47,7 +47,7 @@ const Banner = () => {
                 </span>
             </a>
         </motion.p>
-        <a href="https://drive.google.com/file/d/18hjhfbH0sMyId37-zhcnMMUncUUDdfuQ/view?usp=sharing" target='_blank'>
+        <a href="https://drive.google.com/file/d/1pnSfRaUksOyKQGbv9pKwLaFrUc67B8Ec/view?usp=sharing" target='_blank'>
             <motion.button
             initial={{y:10, opacity:0}}
             animate={{y:0,opacity:1}}
