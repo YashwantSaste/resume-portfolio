@@ -38,7 +38,7 @@ const Banner = () => {
             I&apos;m ready to apply what I&apos;ve learned in a practical setting and contribute to 
             interesting projects.
             {" "}
-            <a href='https://github.com/YashwantSaste' target='_blank'>
+            <a href='https://www.linkedin.com/in/yashwant-saste-466b53239/' target='_blank'>
                 <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>
                     Learn More
                     <span className='absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%]
