@@ -1,7 +1,6 @@
 import React from 'react'
-import { FaRegFolder } from 'react-icons/fa'
 import { RxOpenInNewWindow } from 'react-icons/rx'
-
+import { FaGithub } from 'react-icons/fa'
 
 interface Props{
     title:string,
@@ -18,7 +17,7 @@ const ArchieveCard = ({title,description,link,github,skills}:Props) => {
         '>
             <div className='flex justify-between items-center'>
             <a href={github} target='_blank'>
-                <FaRegFolder className='text-4xl text-textGreen'/>
+                <FaGithub className='text-4xl text-textGreen'/>
             </a>
             <a href={link} target='_blank'>
                 <RxOpenInNewWindow className='text-4xl text-textGreen'  />
