@@ -38,7 +38,7 @@ export const archieveProjects=[
     {
         id:"2",
         projectName:"Test Review Slider",
-        projectLink:"test-review-slider.vercel.app",
+        projectLink:"https://test-review-slider.vercel.app/",
         description:"A mini one page application built for the Unique Password Generation using uppercase, lowercase and symbols using plain HTML, CSS and Javascript.",
         githubLink:"https://github.com/YashwantSaste/test-review-slider",
         skills:["HTML","CSS","JavaScript","React.js"]
