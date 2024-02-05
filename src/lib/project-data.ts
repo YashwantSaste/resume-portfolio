@@ -56,7 +56,7 @@ export const archieveProjects=[
     {
         id:"4",
         projectName:"Password Generator",
-        projectLink:"https://image-gallery-yashwantsaste.vercel.app/",
+        projectLink:"https://password-generator-yashwant-saste.netlify.app/",
         description:"A mini project gallery made with the help of HTML and Pure CSS, in order to have proper understanding of CSS Flex and Grids and other properties",
         githubLink:"https://github.com/YashwantSaste/Password-Generator-Application",
         skills:[
