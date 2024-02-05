@@ -60,8 +60,8 @@ export const skillsData = [
         height: 80,
       },
       {
-        skill_name: "Stripe Payment",
-        Image: "/icons/stripe.webp",
+        skill_name: "Razorpay Payment",
+        Image: "/icons/Razorpay_logo.webp",
         width: 80,
         height: 80,
       },

@@ -54,7 +54,7 @@ const About = () => {
                     <div className='w-full h-full relative z-20 flex pl-6 lgl:pl-0'>
                         {/* Image  rounded-lg h-full object-cover*/}
                         <Image
-                        src="/avatar-1.avif"
+                        src="/portfolio-pic.jpg"
                         alt='Profile'
                         width={949}
                         height={949}
