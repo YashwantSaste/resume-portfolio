@@ -71,7 +71,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-col items-center justify-center gap-20 mt-10'>
             <div className='flex flex-col xl:flex-row-reverse gap-6'>
-                <a href="https://next-js-project-yashwantsaste.vercel.app/" target='_blank'
+                <a href="https://studynotion-yashwant-saste.vercel.app/" target='_blank'
                 className='w-full xl:w-1/2 h-auto relative group'
                 >
                     <div>
@@ -99,7 +99,7 @@ const Projects = () => {
                              cloud technology for scalable media storage, deployed reliably on Vercel.
 
                  {" "}
-                 <a href='https://github.com/YashwantSaste' target='_blank'>
+                 <a href='https://github.com/YashwantSaste/StudyNotion' target='_blank'>
                 <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>
                     Link
                     <span className='absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%]
