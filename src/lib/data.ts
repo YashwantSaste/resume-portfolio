@@ -26,6 +26,11 @@ export const Navlinks=[
         name:"Contact",
         link:"#contact"
     },
+    {
+        id:"6",
+        name:"Skills",
+        link:"#skills"
+    },
 ]
 
 
@@ -86,6 +91,10 @@ export const aboutTechnologies=[
     {
         id:"8",
         skill:"Tailwind CSS"
+    },
+    {
+        id:"9",
+        skill:"Docker"
     },
 ]
 

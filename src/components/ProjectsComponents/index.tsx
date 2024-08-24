@@ -29,7 +29,7 @@ const Projects = () => {
                         Featured Projects
                     </p>
                     <h3 className='text-2xl font-bold'>
-                        QnaPDF:PDF to Questions {" "}<span className='text-textGreen'>(Ongoing)</span>
+                        QnaPDF:Ask Questions to  your PDF
                     </h3>
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
                        This is my ongoing project made by utilizing the power of NextJS 14 and learning the core concepts and with that building
@@ -69,8 +69,8 @@ const Projects = () => {
             
         </div>
 
-        <div className='w-full flex flex-col items-center justify-center gap-20 mt-10'>
-            <div className='flex flex-col xl:flex-row-reverse gap-6'>
+        <div className='w-full flex flex-col items-center justify-center gap-20 mt-10 xl:-ml-16'>
+            <div className='flex flex-col xl:flex-row-reverse gap-4'>
                 <a href="https://studynotion-yashwant-saste.vercel.app/" target='_blank'
                 className='w-full xl:w-1/2 h-auto relative group'
                 >
@@ -89,7 +89,7 @@ const Projects = () => {
                     <h3 className='text-2xl font-bold'>
                         StudyNotion: A Course Management Based Web application
                     </h3>
-                    <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
+                    <p className='bg-[#112240] text-sm md:text-left md:text-base p-2 md:p-6 rounded-md'>
                     
                             StudyNotion, a user-centric EdTech platform developed with the full MERN stack,
                              offers a dual login system for both instructors and students. 

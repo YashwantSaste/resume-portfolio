@@ -1,10 +1,12 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import { BsArrowBarRight, BsArrowLeft } from 'react-icons/bs'
+import { FaArrowRight } from 'react-icons/fa'
 const Banner = () => {
     
   return (
     <section id="home"
-    className='max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 
+    className='max-w-contentContainer mx-auto py-8 mdl:py-24 flex flex-col gap-4 
     lgl:gap-8 mdl:px-10 xl:px-4'
     >
         <motion.h3 
@@ -38,15 +40,28 @@ const Banner = () => {
             I&apos;m ready to apply what I&apos;ve learned in a practical setting and contribute to 
             interesting projects.
             {" "}
-            <a href='https://www.linkedin.com/in/yashwant-saste-466b53239/' target='_blank'>
+            
+        </motion.p>
+        <motion.p
+        initial={{y:10, opacity:0}}
+        animate={{y:0,opacity:1}}
+        transition={{duration:0.5,delay:0.8}}
+        className='text-base md:max-w-[650px] text-textDark font-medium'
+        >
+           <a href='https://medium.com/@sasteyashwant' target='_blank'
+           className='flex items-center gap-2'
+           >
                 <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>
-                    Learn More
+                    Check out my Medium Blogs 
                     <span className='absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%]
                     group-hover:translate-x-0 transition-transform duration-500
                     '/>
                 </span>
+                <FaArrowRight className="text-md text-textGreen"/>
             </a>
+            
         </motion.p>
+        
         <a href="https://drive.google.com/file/d/1pnSfRaUksOyKQGbv9pKwLaFrUc67B8Ec/view?usp=sharing" target='_blank'>
             <motion.button
             initial={{y:10, opacity:0}}

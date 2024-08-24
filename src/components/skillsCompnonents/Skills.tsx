@@ -6,9 +6,8 @@ import Image from 'next/image'
 const Skills = () => {
   return (
     <section
-    className='max-w-contentContainer hidden mx-auto py-10 xl:py-32 md:flex flex-col gap-4 items-center justify-center
-
-    '
+    className='max-w-contentContainer hidden mx-auto py-10 xl:py-24 md:flex flex-col gap-4 items-center justify-center'
+    id='skills'
     >
         <motion.h2 
         initial={{opacity:0}}

@@ -25,7 +25,7 @@ const Navbar = () => {
         e.currentTarget.classList.add("active")
     }
   return (
-    <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
+    <div className='w-full shadow-navbarShadow h-20 lg:h-[10vh] sticky top-0 z-50 bg-bodyColor px-4'>
         <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
             <motion.div
                 initial={{opacity:0}}
@@ -36,7 +36,7 @@ const Navbar = () => {
                 Yashwant Saste
             </motion.div>
             <div className='hidden mdl:inline-flex items-center gap-7'>
-                <ul className='flex text-[13px] gap-7'>
+                <ul className='flex text-[13px] md:gap-4d lgl:gap-7'>
                     {
                         Navlinks.map((spec)=>(
                             <Link href={spec.link} key={spec.id}
