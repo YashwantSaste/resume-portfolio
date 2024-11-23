@@ -101,7 +101,7 @@ export const aboutTechnologies=[
 export const workExperience=[
     {
         num:"1",
-        companyName:"S.W.A.G Club",
+        companyName:"Catalysers Finovate LLP",
         role:"Member",
         duration:"Jan 2023- Present",
         work:[

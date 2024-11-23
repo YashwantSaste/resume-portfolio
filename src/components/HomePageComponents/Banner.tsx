@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import { BsArrowBarRight, BsArrowLeft } from 'react-icons/bs'
 import { FaArrowRight } from 'react-icons/fa'
 const Banner = () => {
     
@@ -62,7 +61,7 @@ const Banner = () => {
             
         </motion.p>
         
-        <a href="https://drive.google.com/file/d/1pnSfRaUksOyKQGbv9pKwLaFrUc67B8Ec/view?usp=sharing" target='_blank'>
+        <a href="https://drive.google.com/file/d/1CBQsZFTKqJv-u5-uBHRpSjBs0NacDS4-/view?usp=sharing" target='_blank'>
             <motion.button
             initial={{y:10, opacity:0}}
             animate={{y:0,opacity:1}}
