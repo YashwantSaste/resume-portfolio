@@ -18,7 +18,7 @@ export default function Home() {
      scrollbar-thumb-textDark/60
     ">
       <Navbar/>
-      <div className="w-full h-[88vh] xl:flex items-center gap-16 justify-between">
+      <div className="w-full h-[88vh] xl:flex items-center md:gap-8 justify-between">
         <motion.div 
         initial={{opacity:0}}
         animate={{opacity:1}}
