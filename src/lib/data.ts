@@ -156,8 +156,8 @@ export interface WorkExperience {
   export const workExperience: WorkExperience[] = [
     {
         num: 1,
-        title: "Frontend Developer Intern",
-        companyName: "Tech Solutions Inc.",
+        title: "Software Engineer Intern",
+        companyName: "Connecticus Technologies Pvt. Ltd",
         duration: "December 2024 - Ongoing",
         responsibilities: [
             "Built a scalable backend for the Ground Transportation System using Java, following OOP and SOLID principles to make the code easy to maintain and extend.",
