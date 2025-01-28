@@ -98,45 +98,87 @@ export const aboutTechnologies=[
     },
 ]
 
-export const workExperience=[
+// export const workExperience=[
+//     {
+//         num:"1",
+//         companyName:"Catalysers Finovate LLP",
+//         role:"Member",
+//         duration:"Jan 2023- Present",
+//         work:[
+//             {
+//                 work:"1",
+//                 description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
+//             },
+//             {
+//                 work:"1",
+//                 description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
+//             },
+//             {
+//                 work:"1",
+//                 description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
+//             }
+//         ]
+//     },
+
+
+
+    
+//     // {
+//     //     num:"2",
+//     //     companyName:"HackIt Club",
+//     //     role:"Workshop Coordinator",
+//     //     duration:"Jan 2023- Present",
+//     //     work:[
+//     //         {
+//     //             work:"1",
+//     //             description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
+//     //         },
+//     //         {
+//     //             work:"1",
+//     //             description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
+//     //         },
+//     //         {
+//     //             work:"1",
+//     //             description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
+//     //         }
+//     //     ]
+//     // },
+// ]
+
+export interface WorkExperience {
+    num: number;
+    title: string;
+    companyName: string;
+    duration: string;
+    responsibilities: string[];
+  }
+  
+  export const workExperience: WorkExperience[] = [
     {
-        num:"1",
-        companyName:"Catalysers Finovate LLP",
-        role:"Member",
-        duration:"Jan 2023- Present",
-        work:[
-            {
-                work:"1",
-                description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
-            },
-            {
-                work:"1",
-                description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
-            },
-            {
-                work:"1",
-                description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
-            }
-        ]
-    },
-    // {
-    //     num:"2",
-    //     companyName:"HackIt Club",
-    //     role:"Workshop Coordinator",
-    //     duration:"Jan 2023- Present",
-    //     work:[
-    //         {
-    //             work:"1",
-    //             description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
-    //         },
-    //         {
-    //             work:"1",
-    //             description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
-    //         },
-    //         {
-    //             work:"1",
-    //             description:"Write modern, performant, maintainable code for a diverse array of client and internal projects"
-    //         }
-    //     ]
-    // },
-]
+        num: 1,
+        title: "Frontend Developer Intern",
+        companyName: "Tech Solutions Inc.",
+        duration: "December 2024 - Ongoing",
+        responsibilities: [
+            "Built a scalable backend for the Ground Transportation System using Java, following OOP and SOLID principles to make the code easy to maintain and extend.",
+            "Used Spring Data JPA to manage database operations efficiently and connected to a MySQL database hosted on Aiven Cloud.",
+            "Maintained code quality by using SonarQube to identify and fix bugs, security issues, and areas for improvement.",
+            "Documented all APIs using Swagger to ensure easy understanding and integration for other developers.",
+            "Worked in IntelliJ IDEA for writing and testing code and used GitHub for version control and resolving merge conflicts.",
+            "Managed tasks and tracked progress using Jira, ensuring the project was completed on time without delays.,"
+        ],
+      },  
+    {
+        num: 2,
+        title: "Web Developer Intern",
+        companyName: "Catalysers Finovate LLP",
+        duration: "June 2024 - August 2024",
+        responsibilities: [
+            "Implemented protected routes in a Next.js application using Firebase authentication and authorization.",
+            "Developed a multipage form for user management, enabling seamless creation, editing, and viewing of user details.",
+            "Built dynamic tables to display and manage user data entered via forms, integrating with Firebase for real-time data retrieval and updates.",
+            "Enhanced skills in Firebase and Next.js, gaining hands-on experience with frontend development, authentication, and real-time data handling.",
+        ],
+        },
+];
+  

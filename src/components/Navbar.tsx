@@ -45,16 +45,17 @@ const Navbar = () => {
                             hover:text-textGreen cursor-pointer duration-300 nav-link'
                             >
                                 <motion.li
-                                initial={{y:-10, opacity:0}}
-                                animate={{y:0,opacity:1}}
-                                transition={{duration:0.1}}
-                                className='group'
+                                initial={{ y: -10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.1 }}
+                                className="group relative"
                                 >
-                                    {spec.name}
-                                    <span className='absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%]
-                                    group-hover:translate-x-0 transition-transform duration-500
-                                    '/>    
+                                {spec.name}
+                                <span
+                                    className="absolute w-full h-[2px] bg-textGreen left-0 bottom-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"
+                                />
                                 </motion.li>
+
                             </Link>
                         ))
                     }

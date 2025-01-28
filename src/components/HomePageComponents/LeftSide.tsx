@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import { FaMedium } from 'react-icons/fa6';
 
 interface SocialMediaLink {
   name: string;
@@ -26,6 +27,11 @@ const socialMediaLinks: SocialMediaLink[] = [
     name: 'Gmail',
     src: 'SiGmail',
     link: 'mailto:sasteyashwant01@gmail.com',
+  },
+  {
+    name: 'Medium',
+    src: 'FaMedium',
+    link: 'https://medium.com/@sasteyashwant',
   },
   {
     name: 'Discord',
@@ -53,6 +59,9 @@ const LeftSide: React.FC = () => {
               break;
             case 'FaDiscord':
               Icon = FaDiscord;
+              break;
+            case 'FaMedium': // Corrected this case
+              Icon = FaMedium;
               break;
             default:
               break;
