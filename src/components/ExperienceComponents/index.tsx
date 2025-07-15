@@ -5,44 +5,58 @@ import SectionTitle from "../SectionTitle";
 import { workExperience } from "@/lib/data";
 import WorkInfo from "./WorkInfo";
 
-interface WorkExperience {
-  num: number;
+interface Role {
   title: string;
-  companyName: string;
   duration: string;
   responsibilities: string[];
 }
 
+interface CompanyExperience {
+  companyName: string;
+  roles: Role[];
+}
+
 const Experience: React.FC = () => {
-  const [selectedWork, setSelectedWork] = useState<WorkExperience>(workExperience[0]);
+  const [selectedCompany, setSelectedCompany] = useState<CompanyExperience>(
+    workExperience[0]
+  );
 
   return (
-    <section id="experience" className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4">
+    <section
+      id="experience"
+      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
+    >
       <SectionTitle title="My Work Experience" titleNumber={2} />
 
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col">
-          {workExperience.map((work) => (
+        <ul className="md:w-40 flex flex-col">
+          {workExperience.map((company, index) => (
             <li
-              key={work.num}
+              key={index}
               className={`border-l-2 px-8 py-3 text-sm font-medium cursor-pointer duration-300 
-              ${
-                selectedWork.num === work.num
-                  ? "border-l-textGreen bg-[#112240] text-textGreen"
-                  : "border-l-textGreen bg-transparent hover:bg-[#112240]"
-              }`}
-              onClick={() => setSelectedWork(work)}
+                ${
+                  selectedCompany.companyName === company.companyName
+                    ? "border-l-textGreen bg-[#112240] text-textGreen"
+                    : "border-l-textGreen bg-transparent hover:bg-[#112240]"
+                }`}
+              onClick={() => setSelectedCompany(company)}
             >
-              {work.companyName}
+              {company.companyName}
             </li>
           ))}
         </ul>
-        <WorkInfo
-          title={selectedWork.title}
-          company={selectedWork.companyName}
-          duration={selectedWork.duration}
-          responsibilities={selectedWork.responsibilities}
-        />
+
+        <div className="flex-1 flex flex-col gap-8">
+          {selectedCompany.roles.map((role, idx) => (
+            <WorkInfo
+              key={idx}
+              title={role.title}
+              company={selectedCompany.companyName}
+              duration={role.duration}
+              responsibilities={role.responsibilities}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
