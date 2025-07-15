@@ -33,11 +33,11 @@ const Banner = () => {
         className='text-base md:max-w-[650px] text-textDark font-medium'
         >
             {" "}
-            I&apos;m an engineering student at S.G.G.S.I.E&T, Nanded, and I&apos;ve got a year of 
-            experience working with the MERN stack. I&apos;m skilled in MongoDB, Express.js, React.js, 
-            and Node.js. Currently, I&apos;m focused on improving my skills in Next.js. 
-            I&apos;m ready to apply what I&apos;ve learned in a practical setting and contribute to 
-            interesting projects.
+            I have hands-on experience delivering real-world solutions across multiple projects and internships. 
+            At Siemens DISW, I contributed to building enterprise-grade Microsoft Teams integrations with Polarion ALM, 
+            implementing secure authentication via OAuth2 and Azure AD, and enabling real-time, bidirectional 
+            communication. I&apos;ve also worked on scalable, event-driven systems using Azure Event Hubs and 
+            played a key role in full-stack development, integration, and deployment stability across environments.
             {" "}
             
         </motion.p>
