@@ -61,7 +61,7 @@ const Navbar = () => {
                     }
                 </ul>
                     {/* Add the resume link */}
-                <a href='https://drive.google.com/file/d/1CBQsZFTKqJv-u5-uBHRpSjBs0NacDS4-/view?usp=sharing' target='_blank'>
+                <a href='https://drive.google.com/file/d/1VdVrgYElK62rQza9uNYb-gHKdD_zc4Mh/view?usp=sharing' target='_blank'>
                     <motion.button
                         initial={{opacity:0}}
                         animate={{opacity:1}}
